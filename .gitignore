@@ -1,0 +1,21 @@
+# Ignore virtual environment
+venv/
+ENV/
+env/
+
+# Ignore Python cache and system files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore output files
+*.png
+*.gif
+*.csv
+
+# Don't ignore your demand CSV if it's intentionally committed
+!call_data.csv
